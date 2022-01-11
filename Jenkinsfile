@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Message') {
+    stage('build') {
       steps {
-        echo 'Jenkins2'
+        echo 'message for compilation'
       }
     }
 
