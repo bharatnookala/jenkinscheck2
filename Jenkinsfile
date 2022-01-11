@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('ipconfig') {
+          steps {
+            bat 'ipconfig'
+          }
+        }
+
       }
     }
 
